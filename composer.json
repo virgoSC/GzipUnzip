@@ -1,0 +1,25 @@
+{
+  "name": "virgo/gzip-unzip",
+  "description": "gzip-unzip",
+  "type": "1",
+  "require": {
+    "php": ">=7.2",
+    "ext-zip": "*",
+    "ext-rar": "*",
+    "ext-iconv": "*",
+    "ext-mbstring": "*"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "seirios",
+      "email": "237472989@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GzipUnzip\\": "GzipUnzip"
+    }
+  },
+  "minimum-stability": "dev"
+}
